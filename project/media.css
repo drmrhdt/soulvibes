@@ -1,0 +1,528 @@
+body {
+    max-width: 1352px;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1175px) {
+    
+
+    .subscribe-label {
+        margin-top: 10px;
+    }
+
+    .submit-container {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .player>.container {
+        flex-wrap: wrap;
+        padding: 5px 0;
+    }
+
+    .player-button {
+        transform: scale(0.8);
+        margin: 0 10px;
+    }
+
+    .name-playing {
+        margin-left: 20px;
+        width: 80%;
+        padding-bottom: 13px;
+        margin-top: -15px;
+    }
+
+    .play {
+        width: 10%;
+    }
+
+    .play-button {
+        margin-top: 10px;
+        margin-left: -15px;
+    }
+
+    .player-buttons {
+        margin-top: -20px;
+        width: 100%;
+        transform: translateX(20px);
+        justify-content: center;
+    }
+
+    .submit-container {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1400px) {
+
+    .main-nav,
+    .main-nav li:last-child {
+        margin-right: 25px;
+    } 
+}
+
+@media only screen and (min-width: 767px) and (max-width: 900px) {
+    
+    .bg-events-people::after {
+        max-height: 93%;
+        width: calc(100% / 3 * 2);
+    }
+    
+    .main-nav-burger {
+        transform: scale(1.2);
+    }
+    
+    .main-nav-burger.opened span {
+        transform: rotate(180deg) scale(1.7) translate(5px, 0);
+    }
+
+    .main-nav {
+        align-items: flex-end;
+        width: 30%;
+        font: 1.5em "Montserrat-Bold";
+        background: linear-gradient(to left, #b50b1d, transparent 100%);
+        padding-bottom: 55%;
+    }
+
+    .main-nav li {
+        margin: 0 0 15px 0;
+        position: relative;
+    }
+
+    .main-nav li:first-child {
+        margin-top: 175px;
+    }
+
+    .main-nav li a::after {
+        content: "";
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        right: 10px;
+        top: 7px;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+    }
+
+    .submit {
+        padding: 10px;
+        right: -5px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    
+    nav {
+        display: none;
+    }
+
+    .main-nav-burger {
+        display: block;
+    }
+
+    .main-nav li a:hover {
+        padding-bottom: 5px;
+        border-bottom: 3px solid #ffffff;
+    }
+
+    .main-nav li a {
+        margin-right: 30px;
+    }
+    
+    .main-nav {
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .play-button {
+        margin-left: -18px;
+    }
+
+    .social a {
+        margin-right: -5%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 766px) {
+
+    h1 {
+        font-size: 4em;
+    }
+    
+    .main-nav-burger.opened span {
+        transform: rotate(180deg) scale(1.6) translate(5px, 0);
+    }
+
+    .main-nav {
+        align-items: flex-end;
+        width: 30%;
+        font: 1em "Montserrat-Bold";
+        background: linear-gradient(to left, #b50b1d, transparent 100%);
+        padding-bottom: 55%;
+    }
+
+
+    .main-nav li {
+        margin: 0 0 15px 0;
+        position: relative;
+    }
+
+    .main-nav li:first-child {
+        margin-top: 155px;
+    }
+
+    .main-nav li a::after {
+        content: "";
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        right: 10px;
+        top: 7px;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+    }
+
+    .bg-events-people::after {
+        width: calc(100% / 3 * 4);
+    }
+
+    .event-container .event:nth-of-type(1) {
+        width: 47%;
+    }
+
+    .loading-link {
+        width: 50%;
+    }
+
+    .news-container {
+        flex-wrap: wrap;
+    }
+
+    .genres-list li a {
+        font-size: 75%;
+    }
+
+    .event-container {
+        margin: 3% 0;
+        width: 65%;
+        font-size: 70%;
+    }
+
+    .event {
+        font-size: 115%;
+    }
+
+    .submit-container {
+        width: 70%;
+    }
+
+    .player-button {
+        transform: scale(0.8);
+        margin: 5px;
+    }
+
+    .submit {
+        right: -6px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+
+    body {
+        font-size: 85%;
+    }
+
+    .logo {
+        font-size: 80%;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    .bg-events-people::after {
+        display: none;
+    }
+    
+    .main-nav-burger.opened span {
+        transform: rotate(180deg) scale(1.6) translate(5px, 0);
+    }
+
+    .main-nav {
+        align-items: flex-end;
+        width: 30%;
+        font: 1em "Montserrat-Bold";
+        background: linear-gradient(to left, #b50b1d, transparent 100%);
+        padding-bottom: 55%;
+    }
+
+    .main-nav li {
+        margin: 0 0 15px 0;
+        position: relative;
+    }
+
+    .main-nav li:first-child {
+        margin-top: 115px;
+    }
+
+    .main-nav li a::after {
+        content: "";
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        right: 10px;
+        top: 7px;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+    }
+
+    .loading-link {
+        width: 50%;
+    }
+
+    .news-item {
+        width: 80%;
+        border-radius: 0;
+    }
+
+    .news-container {
+        flex-direction: column;
+    }
+
+    .genres-list li {
+        width: 24%;
+    }
+
+    .genres-list li a {
+        font-size: 75%;
+    }
+
+    .event-container {
+        margin: 3%;
+        width: 90%;
+        font-size: 125%;
+    }
+
+    .social a {
+        transform: scale(0.8);
+    }
+
+    .submit-container {
+        width: 80%;
+    }
+
+    .player-button {
+        transform: scale(0.7);
+        margin: 1px;
+    }
+
+    .play-button {
+        transform: scale(1);
+    }
+
+    .submit {
+        padding: 10.5px;
+        right: -5px;
+    }
+}
+
+
+@media only screen and (max-width: 479px) {
+    
+    h1 {
+        max-width: 100%;
+        text-align: center;
+        margin: 25% auto 0 auto;
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .logo {
+        font-size: 0.7em;
+    }
+
+    .main-nav li a {
+        margin-left: 40px;
+    }
+
+    .main-nav li a::before {
+        content: "";
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        left: 1px;
+        top: 14px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+
+    .main-nav li:first-child {
+        margin-top: 30px;
+    }
+
+    .main-nav li {
+        margin: 0 0 25px 30px;
+        position: relative;
+    }
+
+    .main-nav {
+        width: 100%;
+        font: 2em "Montserrat-Bold";
+        background-color: #b50b1d;
+        padding-bottom: 35%;
+    }
+
+    .bg-events-people::after {
+        display: none;
+    }
+
+    .event-container {
+        margin: 7% 3%;
+    }
+
+    .event-container,
+    .event {
+        width: 90%;
+        font-size: 93%;
+    }
+
+    .news-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-item {
+        border-radius: 0;
+        width: 85%;
+    }
+
+    .copyright {
+        width: 45%;
+    }
+
+    .subscribe-label {
+        margin-top: 6%;
+        margin-bottom: 7%;
+    }
+
+    .submit-container {
+        width: 95%;
+        margin-bottom: 7%;
+    }
+
+    .email-field {
+        font-size: 1em;
+    }
+
+    .social {
+        width: 50%;
+    }
+
+    .player-buttons  {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+
+    body {
+        font-size: 85%;
+    }
+
+    .loading-link {
+        width: 50%;
+    }
+
+    .genres-list li {
+        width: 30%;
+    }
+
+    .genres-list li:nth-of-type(7) {
+        transform: translateX(55%);
+    }
+
+    .genres-list li:nth-of-type(8) {
+        transform: translateX(-55%);
+    }
+
+    .genres-list li a {
+        font-size: 75%;
+    }
+
+    .subscribe p:nth-of-type(1) {
+        font-size: 320%;
+    }
+
+    .social a {
+        transform: scale(0.8);
+    }
+
+    .submit {
+        right: -6px;
+        padding: 11px;
+    }
+
+    .player-button {
+        transform: scale(0.6);
+        margin: -5px;
+    }
+    
+    .play-button {
+        transform: scale(0.8);
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    
+    .player-button {
+        transform: scale(0.5);
+        margin: -10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    body {
+        font-size: 80%;
+    }
+
+    .genres-list li a {
+        font-size: 80%;
+    }
+
+    .genres-list li {
+        width: 45%;
+    }
+
+    .subscribe p:nth-of-type(1) {
+        font-size: 300%;
+    }
+
+    .submit {
+        padding: 9px 4px;
+        right: -1px;
+    }
+
+    .email-field {
+        padding: 2px;
+    }
+
+    .social a,
+    .play-button {
+        transform: scale(0.7);
+    }
+
+    .player-button {
+        transform: scale(0.5);
+    }
+}

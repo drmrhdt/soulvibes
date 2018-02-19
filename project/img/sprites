@@ -1,0 +1,109 @@
+.bg-big_ellipse {
+    width: 17px; height: 17px;
+    background: url('css_sprites.png') -98px -174px;
+}
+
+x
+
+.bg-facebook {
+    width: 16px; height: 29px;
+    background: url('css_sprites.png') -10px -214px;
+}
+
+x
+
+.bg-grid {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -10px -94px;
+}
+
+x
+
+.bg-instagram {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -532px -94px;
+}
+
+x
+
+.bg-line_ {
+    width: 425px; height: 3px;
+    background: url('css_sprites.png') -10px -38px;
+}
+
+x
+
+.bg-next {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -90px -94px;
+}
+
+x
+
+.bg-pinterest {
+    width: 22px; height: 28px;
+    background: url('css_sprites.png') -490px -94px;
+}
+
+x
+
+.bg-play {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -170px -94px;
+}
+
+x
+
+.bg-prev {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -250px -94px;
+}
+
+x
+
+.bg-rectangle_horisontal {
+    width: 249px; height: 13px;
+    background: url('css_sprites.png') -10px -61px;
+}
+
+x
+
+.bg-repeat_audio {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -330px -94px;
+}
+
+x
+
+.bg-Rounded {
+    width: 561px; height: 8px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+x
+
+.bg-small_ellipse {
+    width: 13px; height: 13px;
+    background: url('css_sprites.png') -279px -61px;
+}
+
+x
+
+.bg-twitter {
+    width: 25px; height: 20px;
+    background: url('css_sprites.png') -10px -174px;
+}
+
+x
+
+.bg-youtube {
+    width: 23px; height: 17px;
+    background: url('css_sprites.png') -55px -174px;
+}
+
+x
+
+.bg-volume {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -410px -94px;
+}
